@@ -1,0 +1,5 @@
+   Log   |             Time stamp            |     Time since     |    Total time    | 
+  level  |                                   |    previous log    |    since boot    | 
+---------------------------------------------------------------------------------------
+ Debug   | 2017-02-20T14:56:12.7260975+07:00 |                    | 00:00:02.3701699 | UDFM initialized.
+ Debug   | 2017-02-20T14:56:17.9900299+07:00 | 0:00:00:05.2639324 | 00:00:07.6341023 | UDF Started automatically.

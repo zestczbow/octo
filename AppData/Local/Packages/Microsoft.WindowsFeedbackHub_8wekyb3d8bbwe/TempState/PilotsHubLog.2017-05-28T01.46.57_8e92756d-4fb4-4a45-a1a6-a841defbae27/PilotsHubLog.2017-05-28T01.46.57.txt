@@ -1,0 +1,147 @@
+05/28/2017 01:46:58  48663951:      Info  Activity ID: 356ad3a5-5af5-468c-883e-58422b87031d
+05/28/2017 01:46:58  48663951:      Info  SdkInitialize.Start[993]
+05/28/2017 01:46:58  0       :      Info  App Version: 1.1704.1361.0
+05/28/2017 01:46:58  48663951:      Info  SdkInitialize.Stop[1098] Elapsed MS [106]
+05/28/2017 01:46:58  0       :      Info  SdkWrapper: Registered HolographicSpace.IsAvailableChanged
+05/28/2017 01:46:58  48663951:      Info  ApplicationModel: InitializeHolographicSetup for Oasis Api
+05/28/2017 01:46:58  48663951:      Info  SdkWrapper:Invoking HolographicSpace.IsAvailable
+05/28/2017 01:46:58  48663951:      Info  SdkWrapper:HolographicSpace.IsAvailable returned False
+05/28/2017 01:46:58  48663951:      Info  ApplicationModel: Api results: IsInHolographicShell = False, IsHMDConnected = False
+05/28/2017 01:46:58  48663951:      Info  ApplicationModel: Registered SdkWrapper.IsAvailableChanged
+05/28/2017 01:46:58  48663951:      Info  Insider's Hub starting; Online state: 'Unknown', DebuggerAttached: 'False', Debug: 'False', IsInitialized: 'True'
+05/28/2017 01:46:58  48663951:      Info  PilotsHubOnLaunched, args: CONTEXTUIF:?FolderName=C:\Users\Xioming\Pictures\Feedback\{A6301912-6672-4E15-9A46-E859663A462A}, tileid: App
+05/28/2017 01:46:58  48663951:      Info  Feedback Hub launching; ActivationType: 'Hardware', Kind: 'Launch', AppRunning: 'False'
+05/28/2017 01:46:58  48663951:      Info  UIFActivationHandler.Initialize activation handler valid: True
+05/28/2017 01:46:58  48663951:      Info  GetInstalledLegacyApps.Start[2001]
+05/28/2017 01:46:58  48663951:      Info  GetInstalledModernApps.Start[2072]
+05/28/2017 01:46:58  48663951:      Info  GetPublicModernApps.Start[2072]
+05/28/2017 01:46:58  48663951:      Info  HandleFirstActivation.Start[3269]
+05/28/2017 01:46:58  48128916:      Info  PilotsHubStartLaunch
+05/28/2017 01:46:58  48128916:      Info  Creating shell host
+05/28/2017 01:46:59  48128916:      Info  Adding new Shell to Tracked WindowModel management from Shell constructor.
+05/28/2017 01:46:59  48128916:      Info  Initialize.Shell.Start[4236]
+05/28/2017 01:46:59  48128916:Main  Info  Initialize.Shell.Stop[5361] Elapsed MS [1125]
+05/28/2017 01:46:59  48128916:Main  Info  RunChecks.Start[5390]
+05/28/2017 01:46:59  48128916:Main  Info  Beginning start up checks. Previously ran [False]
+05/28/2017 01:46:59  48128916:Main  Info  RefreshNetworkConnection.Start[5413]
+05/28/2017 01:46:59  48128916:Main  Info  Refreshing network status
+05/28/2017 01:46:59  48128916:Main  Info  The current internet connectivity profile has a ConnectivityLevel of 'InternetAccess'
+05/28/2017 01:46:59  48128916:Main  Info  Current network status - Connected
+05/28/2017 01:46:59  48128916:Main  Info  RefreshNetworkConnection.Stop[5452] Elapsed MS [39]
+05/28/2017 01:47:00  48128916:Main  Info  RefreshSettings.Start[5655]
+05/28/2017 01:47:00  48128916:Main  Info  User settings valid [False]
+05/28/2017 01:47:00  48128916:Main  Info  RefreshSettings.Stop[5732] Elapsed MS [77]
+05/28/2017 01:47:00  48128916:Main  Info  Refreshing tento: initial error int is 20
+05/28/2017 01:47:00  48128916:Main  Info  Waiting on refreshing tento, cached value is 
+05/28/2017 01:47:00  48128916:Main  Info  GetTentInfo.Start[5763]
+05/28/2017 01:47:00  48128916:Main  Info  GetWebContent.Uri[https://uif.microsoft.com/FeedbackCloudService.svc/tentInfo?isUnauthenticated=True].Start[5930]
+05/28/2017 01:47:00  48128916:Main  Info  ModelInfo: Micro-Star International Co., Ltd.GE60 2PE
+05/28/2017 01:47:04  48128916:Main  Info  GetWebContent.Uri[https://uif.microsoft.com/FeedbackCloudService.svc/tentInfo?isUnauthenticated=True].Stop[9588] Elapsed MS [3658]
+05/28/2017 01:47:04  48128916:Main  Info  GetTentInfo.Stop[9588] Elapsed MS [3825]
+05/28/2017 01:47:04  48128916:Main  Info  Tento refreshed: new app error int is 0, cached value is False
+05/28/2017 01:47:04  48128916:Main  Info  Tento changed: True
+05/28/2017 01:47:04  48128916:Main  Info  Finished start up checks. HasNetwork[True] HasUserSettings[False] PrivacyStatus[L3[True] L4[True] Insider[False]] WelcomeDialog[False] ValidBuild[False] IsTented[False]
+05/28/2017 01:47:04  48128916:Main  Info  RunChecks.Stop[9653] Elapsed MS [4263]
+05/28/2017 01:47:04  48128916:Main  Info  Creating shell host
+05/28/2017 01:47:04  48128916:Main  Info  IsKnownActivationType True
+05/28/2017 01:47:04  48128916:Main  Info  GetStartupState [None]
+05/28/2017 01:47:04  48128916:Main  Info  IsRestrictedStartupState [False] State [None]
+05/28/2017 01:47:04  48128916:Main  Info  Categories - Checking for content in memory HasContent[False]
+05/28/2017 01:47:04  48128916:Main  Info  LoadDataAsync.CategoriesVM.Start[9824]
+05/28/2017 01:47:04  48128916:Main  Info  Loading CategoriesVM based on network status[Connected] strategy[LoadFromCacheBackgroundDownload]
+05/28/2017 01:47:04  48128916:Main  Info  CategoriesVM: Loading data from persistence store. InitialContent[False]
+05/28/2017 01:47:04  48128916:Main  Info  GetStartupState [None]
+05/28/2017 01:47:04  48128916:Main  Info  IsRestrictedStartupState [False] State [None]
+05/28/2017 01:47:04  48128916:Main  Info  HandleAppActivation.Start[9904]
+05/28/2017 01:47:04  48128916:Main  Info  IsRestrictedFeedbackState: True, State NoCategories: 
+05/28/2017 01:47:04  48128916:Main  Info  NavigateToPage.Feedback.Restricted.Start[10469]
+05/28/2017 01:47:04  48128916:Main  Info  OnNavigatedTo.FeedbackRestrictedPage.Start[10551]
+05/28/2017 01:47:04  48128916:Main  Info  LoadState.FeedbackRestrictedVM.Start[10552]
+05/28/2017 01:47:04  48128916:Main  Info  LoadState.FeedbackRestrictedVM.Stop[10586] Elapsed MS [34]
+05/28/2017 01:47:04  48128916:Main  Info  OnNavigatedTo.FeedbackRestrictedPage.Stop[10587] Elapsed MS [35]
+05/28/2017 01:47:04  48128916:Main  Info  NavigateToPage.Feedback.Restricted.Stop[10589] Elapsed MS [120]
+05/28/2017 01:47:04  48128916:Main  Info  HandleAppActivation.Stop[10589] Elapsed MS [685]
+05/28/2017 01:47:04  48128916:Main  Info  HandleFirstActivation.Stop[10589] Elapsed MS [7320]
+05/28/2017 01:47:04  48128916:Main  Info  PilotsHubEndLaunch
+05/28/2017 01:47:05  48128916:Main  Info  FeedbackHubInteraction: page Profile, interaction ClickOnAchievementTab
+05/28/2017 01:47:06  48128916:Main  Info  PageLoaded.FeedbackRestrictedPage.Start[12242]
+05/28/2017 01:47:06  48128916:Main  Info  StartupReport - AppStartTime[12264] Activation=[7403] StartupChecks=[4263] UserSettings=[77] NavigateToPage-Feedback.Restricted=[120] OnNavigatedTo-FeedbackRestrictedPage=[35] 
+05/28/2017 01:47:06  48128916:Main  Info  PageLoaded.FeedbackRestrictedPage.Stop[12343] Elapsed MS [101]
+05/28/2017 01:47:06  48128916:Main  Info  InsidersHubNavigationInfo, FeedbackRestrictedPage
+05/28/2017 01:47:06  48128916:Main  Info  CategoriesVM: Downloading network data
+05/28/2017 01:47:06  48128916:Main  Info  NetworkLoad.CategoriesVM.Start[12407]
+05/28/2017 01:47:06  48128916:Main  Info  DownloadDiagtrackScenarios.Start[12434]
+05/28/2017 01:47:06  48128916:Main  Info  Unauthenticated user attempting to download the client settings. Returning null for now
+05/28/2017 01:47:06  48128916:Main  Info  DownloadDiagtrackScenarios.Stop[12435] Elapsed MS [1]
+05/28/2017 01:47:06  48128916:Main  Info  GetWebContentStream.Uri[https://uif.microsoft.com/FeedbackCloudService.svc/displaycategories?language=en-US&formFactorBitmask=1&lastUpdateTime=01/01/0001 00:00:00&isUnauthenticated=true].Start[12435]
+05/28/2017 01:47:06  48128916:Main  Info  GetWebContentStream.Uri[https://uif.microsoft.com/FeedbackCloudService.svc/contexts?language=en-US&formFactorBitmask=1&lastUpdateTime=01/01/0001 00:00:00&contextFileVersion=V3&isUnauthenticated=true].Start[12438]
+05/28/2017 01:47:06  48128916:Main  Info  GetWebContentStream.Uri[https://uif.microsoft.com/FeedbackCloudService.svc/diagnostics?&formFactorBitmask=1&isUnauthenticated=true].Start[12440]
+05/28/2017 01:47:08  48128916:Main  Info  GetWebContentStream.Uri[https://uif.microsoft.com/FeedbackCloudService.svc/displaycategories?language=en-US&formFactorBitmask=1&lastUpdateTime=01/01/0001 00:00:00&isUnauthenticated=true].Stop[14218] Elapsed MS [1783]
+05/28/2017 01:47:09  48128916:Main  Info  GetWebContentStream.Uri[https://uif.microsoft.com/FeedbackCloudService.svc/diagnostics?&formFactorBitmask=1&isUnauthenticated=true].Stop[15157] Elapsed MS [2717]
+05/28/2017 01:47:10  48128916:Main  Info  GetWebContentStream.Uri[https://uif.microsoft.com/FeedbackCloudService.svc/contexts?language=en-US&formFactorBitmask=1&lastUpdateTime=01/01/0001 00:00:00&contextFileVersion=V3&isUnauthenticated=true].Stop[15391] Elapsed MS [2953]
+05/28/2017 01:47:10  48128916:Main  Info  PersistToDiskAsync.CategoriesVM.[PilotContracts.DataContracts.CategoryData].Start[15406]
+05/28/2017 01:47:10  48128916:Main  Info  NetworkLoad.CategoriesVM.Stop[15407] Elapsed MS [2999]
+05/28/2017 01:47:10  48128916:Main  Info  CategoriesVM: Successfully downloaded data from network
+05/28/2017 01:47:10  48128916:Main  Info  CategoriesVM: Updating data in the view
+05/28/2017 01:47:10  48128916:Main  Info  OnDataLoadedAsync.Start[15407]
+05/28/2017 01:47:10  48128916:Main  Info  LoadAllAppsWorkerAsync.Start[15626]
+05/28/2017 01:47:10  48128916:Main  Info  GetLocalApps.Start[15626]
+05/28/2017 01:47:10  48128916:Main  Info  GetInstalledModernApps.Start[15626]
+05/28/2017 01:47:10  48128916:Main  Info  PersistToDiskAsync.CategoriesVM.[PilotContracts.DataContracts.CategoryData].Stop[16094] Elapsed MS [688]
+05/28/2017 01:47:13  48128916:Main  Info  GetPublicModernApps.Stop[18773] Elapsed MS [16701]
+05/28/2017 01:47:13  48128916:Main  Info  GetInstalledModernApps.Stop[18774] Elapsed MS [3148]
+05/28/2017 01:47:13  48128916:Main  Info  GetInstalledModernApps.Stop[18774] Elapsed MS [3148]
+05/28/2017 01:47:13  48128916:Main  Info  GetLocalApps.Stop[19578] Elapsed MS [3952]
+05/28/2017 01:47:13  48128916:Main  Info  GetInstalledLegacyApps.Start[19579]
+05/28/2017 01:47:28  48128916:Main  Info  GetInstalledLegacyApps.Stop[34156] Elapsed MS [14577]
+05/28/2017 01:47:28  48128916:Main  Info  GetInstalledLegacyApps.Stop[34157] Elapsed MS [14578]
+05/28/2017 01:47:28  48128916:Main  Info  GetInstalledModernApps.Start[34158]
+05/28/2017 01:47:28  48128916:Main  Info  GetInstalledModernApps.Stop[34158] Elapsed MS [0]
+05/28/2017 01:47:28  48128916:Main  Info  LoadAllAppsWorkerAsync.Stop[34191] Elapsed MS [18565]
+05/28/2017 01:47:28  48128916:Main  Info  RefreshAllCategoryLists.Start[34232]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoryListsChanged.AllFeedback.Start[34295]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoryListLoaded.AllFeedback.Start[34295]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoryListLoaded.AllFeedback.Stop[34295] Elapsed MS [0]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoryListsChanged.AllFeedback.Stop[34295] Elapsed MS [0]
+05/28/2017 01:47:28  48128916:Main  Info  RefreshAllCategoryLists.Stop[34295] Elapsed MS [63]
+05/28/2017 01:47:28  48128916:Main  Info  RefreshAllCategoryLists.Start[34295]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoryListsChanged.MyFeedback.Start[34295]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoryListLoaded.MyFeedback.Start[34295]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoriesLoaded.FeedbackRestrictedVM.Start[34296]
+05/28/2017 01:47:28  48128916:Main  Info  PrepareNavigationArguments.FeedbackRestrictedVM.Start[34297]
+05/28/2017 01:47:28  48128916:Main  Info  PrepareNavigationArguments.FeedbackRestrictedVM.Stop[34298] Elapsed MS [0]
+05/28/2017 01:47:28  48128916:Main  Info  IsRestrictedFeedbackState: False, State None: 
+05/28/2017 01:47:28  48128916:Main  Info  NavigateToPage.Feedback.FeedbackNew.Start[34300]
+05/28/2017 01:47:28  48128916:Main  Info  OnNavigatedFrom.FeedbackRestrictedPage.Start[34522]
+05/28/2017 01:47:28  48128916:Main  Info  SaveState.FeedbackRestrictedVM.Start[34522]
+05/28/2017 01:47:28  48128916:Main  Info  SaveState.FeedbackRestrictedVM.Stop[34522] Elapsed MS [0]
+05/28/2017 01:47:28  48128916:Main  Info  OnNavigatedFrom.FeedbackRestrictedPage.Stop[34522] Elapsed MS [1]
+05/28/2017 01:47:28  48128916:Main  Info  OnNavigatedTo.NewIssuePage.Start[34532]
+05/28/2017 01:47:28  48128916:Main  Info  OnNavigatedTo.NewIssuePage.Stop[34565] Elapsed MS [32]
+05/28/2017 01:47:28  48128916:Main  Info  PilotsHubFeedbackAppLaunch
+05/28/2017 01:47:28  48128916:Main  Info  NavigateToPage.Feedback.FeedbackNew.Stop[34591] Elapsed MS [291]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoriesLoaded.FeedbackRestrictedVM.Stop[34591] Elapsed MS [295]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoryListLoaded.MyFeedback.Stop[34591] Elapsed MS [296]
+05/28/2017 01:47:28  48128916:Main  Info  OnCategoryListsChanged.MyFeedback.Stop[34591] Elapsed MS [296]
+05/28/2017 01:47:28  48128916:Main  Info  RefreshAllCategoryLists.Stop[34591] Elapsed MS [296]
+05/28/2017 01:47:28  48128916:Main  Info  OnDataLoadedAsync.Stop[34591] Elapsed MS [19184]
+05/28/2017 01:47:28  48128916:Main  Info  CategoriesVM: Successfully refreshed data
+05/28/2017 01:47:28  48128916:Main  Info  LoadDataAsync.CategoriesVM.Stop[34592] Elapsed MS [24768]
+05/28/2017 01:47:28  48128916:Main  Info  Finished loading CategoriesVM based result - Complete
+05/28/2017 01:47:28  48128916:Main  Info  IsUiRecordingSupported.Start[34600]
+05/28/2017 01:47:28  48128916:Main  Info  IsUiRecordingSupported.Stop[34600] Elapsed MS [0]
+05/28/2017 01:47:29  48128916:Main  Info  isInHolographicShell = False, isHMDConnected = False, isHolographicCategory = False, canShowHolographicCheckBox = False
+05/28/2017 01:47:29  48128916:Main  Info  PageLoaded.NewIssuePage.Start[35065]
+05/28/2017 01:47:29  48128916:Main  Info  PageLoaded.NewIssuePage.Stop[35065] Elapsed MS [1]
+05/28/2017 01:47:29  48128916:Main  Info  InsidersHubNavigationInfo, NewIssuePage
+05/28/2017 01:47:29  48128916:Main  Info  PageUnloaded.FeedbackRestrictedPage.Start[35168]
+05/28/2017 01:47:29  48128916:Main  Info  PageUnloaded.FeedbackRestrictedPage.Stop[35168] Elapsed MS [0]
+05/28/2017 02:18:57  48128916:Main  Info  Suspending application
+05/28/2017 02:18:57  48128916:Main  Info  OnResuming.Start[1923184]
+05/28/2017 02:18:57  48128916:Main  Info  Resuming application
+05/28/2017 02:18:57  48128916:Main  Info  Refreshing network status
+05/28/2017 02:18:57  48128916:Main  Info  The current internet connectivity profile has a ConnectivityLevel of 'InternetAccess'
+05/28/2017 02:18:57  48128916:Main  Info  Current network status - Connected
+05/28/2017 02:18:57  48128916:Main  Info  OnResumed.Start[1923210]
+05/28/2017 02:18:57  48128916:Main  Info  OnResumed.Stop[1923219] Elapsed MS [9]
+05/28/2017 02:18:57  48128916:Main  Info  OnResuming.Stop[1923220] Elapsed MS [36]

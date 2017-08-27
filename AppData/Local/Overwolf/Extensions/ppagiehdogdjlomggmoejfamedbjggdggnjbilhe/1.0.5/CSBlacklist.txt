@@ -1,0 +1,12 @@
+.google.co
+.facebook.co
+gmail.com
+twitter.com
+.microsoft.co
+live.com
+.youtube.co
+steam.com
+twitch.tv
+.spotify.co
+.whatsapp.co
+.skype.co

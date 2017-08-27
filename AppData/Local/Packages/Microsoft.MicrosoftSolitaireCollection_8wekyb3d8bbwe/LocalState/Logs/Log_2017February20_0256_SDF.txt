@@ -1,0 +1,28 @@
+   Log   |             Time stamp            |     Time since     |    Total time    | 
+  level  |                                   |    previous log    |    since boot    | 
+---------------------------------------------------------------------------------------
+ Debug   | 2017-02-20T14:56:15.8180733+07:00 |                    | 00:00:05.4621457 | Starts from: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:15.8180733+07:00 | 0:00:00:00.0000000 | 00:00:05.4621457 | MoveToPoint: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:15.8185779+07:00 | 0:00:00:00.0005046 | 00:00:05.4626503 | [StartDownloadMandatoryUpdateInfoWithWait] :: Create Mandatory Update Settings Downloadind Task
+ Debug   | 2017-02-20T14:56:16.1566170+07:00 | 0:00:00:00.3380391 | 00:00:05.8006894 | ShowInfoPopup Create Instance
+ Debug   | 2017-02-20T14:56:16.1596170+07:00 | 0:00:00:00.0030000 | 00:00:05.8036894 | [StartDownloadMandatoryUpdateInfoWithWait] :: Start Downloadind with wait 00:00:05 sec
+ Debug   | 2017-02-20T14:56:17.7198307+07:00 | 0:00:00:01.5602137 | 00:00:07.3639031 | [StartDownloadMandatoryUpdateInfoWithWait] :: Downloading finished
+ Debug   | 2017-02-20T14:56:17.7198307+07:00 | 0:00:00:00.0000000 | 00:00:07.3639031 | MoveToPoint: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:17.7198307+07:00 | 0:00:00:00.0000000 | 00:00:07.3639031 | [CheckMandatoryUpdate] :: Is Mandatory Update Checked Before: False
+ Debug   | 2017-02-20T14:56:17.7198307+07:00 | 0:00:00:00.0000000 | 00:00:07.3639031 | [CheckMandatoryUpdate] :: Check whether the Mandatory Update required.
+ Debug   | 2017-02-20T14:56:17.7208305+07:00 | 0:00:00:00.0009998 | 00:00:07.3649029 | [CheckMandatoryUpdate] :: Mandatory Update Check status None.
+ Debug   | 2017-02-20T14:56:17.7208305+07:00 | 0:00:00:00.0000000 | 00:00:07.3649029 | MoveToPoint: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:17.7208305+07:00 | 0:00:00:00.0000000 | 00:00:07.3649029 | [CheckNonMandatoryUpdate] :: Check whether the Non MandatoryUpdate required.
+ Debug   | 2017-02-20T14:56:17.7208305+07:00 | 0:00:00:00.0000000 | 00:00:07.3649029 | [CheckNonMandatoryUpdate] :: Non Mandatory Update Check status None.
+ Debug   | 2017-02-20T14:56:17.7208305+07:00 | 0:00:00:00.0000000 | 00:00:07.3649029 | MoveToPoint: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:17.7208305+07:00 | 0:00:00:00.0000000 | 00:00:07.3649029 | [ResetForceOffline] :: Reset Forced Offline Mode
+ Debug   | 2017-02-20T14:56:17.7208305+07:00 | 0:00:00:00.0000000 | 00:00:07.3649029 | MoveToPoint: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:17.7223598+07:00 | 0:00:00:00.0015293 | 00:00:07.3664322 | [CheckFirstTimeStarted] :: IsFirstTimeStarted: True
+ Debug   | 2017-02-20T14:56:17.7223598+07:00 | 0:00:00:00.0000000 | 00:00:07.3664322 | MoveToPoint: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:17.7228602+07:00 | 0:00:00:00.0005004 | 00:00:07.3669326 | [ChooseMigrationStrategy] :: Oem data exists: False
+ Info    | 2017-02-20T14:56:17.7238391+07:00 | 0:00:00:00.0009789 | 00:00:07.3679115 | [ChooseMigrationStrategy] :: Win8 data exists: False
+ Debug   | 2017-02-20T14:56:17.7243424+07:00 | 0:00:00:00.0005033 | 00:00:07.3684148 | MoveToPoint: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:17.7610778+07:00 | 0:00:00:00.0367354 | 00:00:07.4051502 | MoveToPoint: [StartDownloadMandatoryUpdateInfoWithWait]
+ Debug   | 2017-02-20T14:56:17.7610778+07:00 | 0:00:00:00.0000000 | 00:00:07.4051502 | [FinalState] :: CloseInfoPopup
+ Debug   | 2017-02-20T14:56:17.7610778+07:00 | 0:00:00:00.0000000 | 00:00:07.4051502 | CloseInfoPopup
+ Debug   | 2017-02-20T14:56:17.7640868+07:00 | 0:00:00:00.0030090 | 00:00:07.4081592 | [FinalState] :: Set completed

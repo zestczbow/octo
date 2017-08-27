@@ -1,0 +1,63 @@
+   Log   |             Time stamp            |     Time since     |    Total time    | 
+  level  |                                   |    previous log    |    since boot    | 
+---------------------------------------------------------------------------------------
+ Error   | 2017-02-20T14:56:18.2955037+07:00 |                    | 00:00:07.9395761 | Could not load cache record because of: System.IO.FileNotFoundException: The system cannot find the file specified. (Excep_FromHResult 0x80070002)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x699af7
+   at Solitaire!<BaseAddress>+0x1d38d19
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x699af7
+   at Solitaire!<BaseAddress>+0x1c3cebe
+ Error   | 2017-02-20T14:56:19.1040888+07:00 | 0:00:00:00.8085851 | 00:00:08.7481612 | Could not remove cache record because of: System.IO.FileNotFoundException: The system cannot find the file specified. (Excep_FromHResult 0x80070002)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x699af7
+   at Solitaire!<BaseAddress>+0x1d36d65
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x50c81a
+   at Solitaire!<BaseAddress>+0x1c3c7de
+ Error   | 2017-02-20T14:57:04.6890346+07:00 | 0:00:00:45.5849458 | 00:00:54.3331070 | Could not save cache record because of: System.UnauthorizedAccessException: Access is denied. (Excep_FromHResult 0x80070005)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x699af7
+   at Solitaire!<BaseAddress>+0x1d383a2
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x50c81a
+   at Solitaire!<BaseAddress>+0x1c3cb5a
+ Error   | 2017-02-20T14:57:04.6910360+07:00 | 0:00:00:00.0020014 | 00:00:54.3351084 | Could not save cache record because of: System.UnauthorizedAccessException: Access is denied. (Excep_FromHResult 0x80070005)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x699af7
+   at Solitaire!<BaseAddress>+0x1d383a2
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x50c81a
+   at Solitaire!<BaseAddress>+0x1c3cb5a
+ Error   | 2017-02-20T14:57:06.5427756+07:00 | 0:00:00:01.8517396 | 00:00:56.1868480 | Could not save cache record because of: System.UnauthorizedAccessException: Access is denied. (Excep_FromHResult 0x80070005)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x699af7
+   at Solitaire!<BaseAddress>+0x1d38316
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at SharedLibrary!<BaseAddress>+0x4511ee
+   at SharedLibrary!<BaseAddress>+0x451168
+   at SharedLibrary!<BaseAddress>+0x50c81a
+   at Solitaire!<BaseAddress>+0x1c3cb5a

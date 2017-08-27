@@ -1,0 +1,10 @@
+Report Timestamp: 01/27/2017 00:54:46 
+
+ id  | Running | Session length | Average CPU | Average memory | Avg last CPU | Avg last Memory | Avg. 5 min CPU | Avg 5 min memory | Last Run
+----------------------------------------------------------------------------------------------------------------------------------------------
+1    | True    | 10:55:48       | 0.0%        | 53,669K        | 0.0%         | 53,669K         | 0.0%           | 55,758K          |                
+2    | False   | 00:00:09       | 0.1%        | 15,446K        | 0.0%         | 15,672K         | 0.0%           | 0K               | 01/25/2017 20:04:12 
+
+1. Overwolf
+2. ggfmakpbllghoepnmfelddbminamnbmfelbahfdp - Overwolf General GameEvents Provider
+

@@ -1,0 +1,9 @@
+Subject: exam-25.08.2017
+
+1.คำสั่งที่ใช้ในการสร้าง local repository คืออะไร
+	
+2.local repository  คืออะไร
+
+3.คำสั่งในการเชื่อม remote repository คืออะไร
+
+4.ถ้าต้องการหาความแตกต่างระหว่างสิ่งที่อยู่ใน staging area กับ lastest commit ต้องใช้คำสั่งอะไร

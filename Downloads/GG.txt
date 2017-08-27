@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Panquin Catcher</title>
+
+   	<script type="text/javascript" src = "simpleGame.js"></script>
+    <script type="text/javascript">
+        var scene;
+        var gold;
+        var fire;
+        var energy = 100;
+        var allPics = ["","1","2","3","4","5","6","7","8","9","10"];
+        var gettword;
+        var score=150;
+        var numFire = 0;
+        var newNumFire = 0;
+        var heal;
+        var p;
+        var word;
+
+        var num;
+
+
+
+       	function getGold(){
+            var tgold;
+            tgold = new Sprite(scene, "gold.png", 50, 50);
+            tgold.setSpeed(-12);
+
+            tgold.resetPos = function(Ind){
+                if(Ind % 2 == 0){
+                    tgold.setPosition(1281, 410);
+                }
+                else{
+                    tgold.setPosition(1281, 320);
+                }
+            }
+            return tgold;
+        }
+        
+        function checkEnergy(){
+            energy -= 1;
+
+            if(energy >= 0){
+                
+                setTimeout("checkEnergy()",1000);
+            }
+            else{
+                document.location.href = "gameOver.html";
+            }
+        }
+
+        function checkScore(){
+        	if(energy>=0){
+        		if(score>=450){
+        			document.location.href = "game3.html";
+        		}
+        	}
+        	else{
+        		document.location.href = "gameOver.html";
+        	}
+        }
+        
+
+		function CheckCollisionsGold(Ind){
+            if(character.collidesWith(gold[Ind])){
+                gold[Ind].resetPos(Ind);
+                score+=1;
+            }
+        }
+
+       	function CheckCollisionsHeal(Ind){
+            if(character.collidesWith(heal[Ind])){
+                energy+=15;
+                heal[Ind].resetPos(Ind);
+            }
+        }
+
+        function checkXfire(){
+            if(fire.x <= 1){
+                fire.resetFire();
+            }
+        }
+
+       	function getHeal(){
+       		var theal;
+			theal = new Sprite(scene, "heal.png", 180, 140);
+			theal.setPosition(1281, 500);
+          	theal.setSpeed(-23);
+
+          	theal.resetPos = function(Ind){
+          		if(Ind%2==0){
+          			theal.setPosition(1281, 500);
+          		}
+          		else{
+          			theal.setPosition(1281, 500);
+          		}
+          	}
+            return theal;
+       	}
+
+       	function getFire(){
+            var tfire;
+            
+            numFire = 1;
+            tfire = new Sprite(scene, "fire.png", 75, 83);
+            tfire.setPosition(1281, 460);
+          	tfire.setSpeed(-20);
+
+            tfire.resetFire = function(){
+                while(1){
+                    newNumFire = Math.ceil(Math.random() * 3);
+
+                    if(newNumFire != numFire){
+                        break;
+                    }
+                }
+                if(newNumFire == 1){
+                    tfire = new Sprite(scene, "fire.png", 75, 83);
+                    tfire.setPosition(1281, 480);
+                }
+                tfire.setSpeed(-20);
+            }
+
+            return tfire;
+        }
+
+        function CheckCollisionsFire(){
+            if(character.collidesWith(fire)){
+            	if(score>=1){
+            		score -= 1;
+            	}
+            	else{
+            		score = 0;
+            	}
+            }
+            else{
+                if(fire.x <= 5){
+                    fire = getFire();
+               }
+            }
+        }
+
+        function checkKeys(){
+            if(keysDown[K_SPACE]){
+                //character.setCurrentCycle("jump");
+                character.setAnimationSpeed(300);
+                character.addVector(0, 20.0);
+            }
+        }
+
+        function checkGravity(){
+            if(character.speed > 30){
+                speed = character.getSpeed();
+                speed *= 0.5;
+
+                character.setSpeed(speed);
+            }
+            if(character.y == 450){
+                checkKeys();
+            }
+            else if(character.y > 460){
+                character.addVector(0, 20.0);
+                character.setCurrentCycle("run");
+                character.setAnimationSpeed(500);
+                character.y = 450;
+            }
+            else if(character.y <= 250){
+                
+                character.addVector(180, 20.0);
+            }          
+        }
+
+        function getWord(){
+            var tword;
+            tword = new Sprite(scene, "game2/word/"+gettword+".png",98,58);
+            tword.setSpeed(-15);
+            tword.setPosition(1281, 320);
+
+            num = Math.random();
+
+            tword.reset = function(){
+                 if(word < 10){
+                    this.image.src = "game2/word/" + gettword + ".png";
+                }
+                else{
+                    num = getIndexWord();
+                    gettword = allWords[num];
+                    tword = allWords[num];
+                    this.image.src = "game2/word" + tword[round] + ".png";
+
+
+                }
+
+            }
+
+            tword.reset();
+
+            return tword;
+        }
+
+        function CheckCollisionsPic(){
+            if(character.collidesWith(word)){
+                score+=2;
+              word.reset();
+            }
+        }
+
+
+        
+        function getIndexPic(){
+            var getnum;
+
+            getnum = Math.ceil(Math.random() * 10);
+
+            return getnum;
+        }
+
+        function init(){
+            scene = new Scene();
+
+            scene.setSize(1280,600);
+
+            background = new Sprite(scene, "BG4.png", 2560, 800);
+            background.setSpeed(-10);
+            background.setPosition(0,250);
+
+            character = new Sprite(scene, "walk.png", 113.25,117);
+            character.loadAnimation(453,117,113.25,117);
+            character.generateAnimationCycles();
+            //character.renameCycles(new Array("run", "jump"));
+            character.setAnimationSpeed(300);
+            character.setPosition(100, 450);
+            character.setSpeed(0);
+            //character.setCurrentCycle("run");
+ 			
+ 			gold = new Array(15);
+            for(var i = 0; i < 15; i++){
+                gold[i] = new getGold();
+                if(i < 7){
+                    gold[i].setPosition(450 + (50*i), 410);
+                }
+                else{
+                    gold[i].setPosition(450 + (50*i), 350);
+                }
+            }
+
+            heal = new Array(1);
+            for(var i = 0; i < 1; i++){
+				heal[i] = new getHeal();
+            	if(energy<=40 && energy>=38){
+            		heal.setPosition(1281,480);
+            	}
+            }
+
+             word = new Array(1);
+            for(var i = 0; i < 1; i++){
+                word[i] = new getWord();
+                if(i<1){
+                    word[i].setPosition(1281,320);
+                }
+            }
+            
+
+                
+               
+                   
+            
+
+            fire = getFire();
+			num = getIndexPic();
+			gettword = allPics[num];
+            pict = new Sprite(scene, "game2/"+gettword+".png", 143, 108);
+            pict.setSpeed(0);
+            pict.setPosition(640,50);
+    
+            checkXfire();
+            checkEnergy();
+
+
+            scene.start();
+        } // end init
+        
+        function update(){
+            scene.clear(); 
+			checkScore();
+            checkGravity();
+            CheckCollisionsFire();       
+
+
+            background.update();
+            pict.update();
+
+
+            fire.update();
+			character.update();
+			for(var i = 0; i < 15; i++){
+                gold[i].update();
+                CheckCollisionsGold(i);
+            }
+
+            for(var i = 0; i < 1; i++){
+	            if(energy<=40 && energy>=38){
+	            	heal[i].update();
+	            	CheckCollisionsHeal(i);
+	            }            	
+            }
+
+
+            for(var i = 0; i < 1; i++){
+                
+                    word[i].update();
+                    CheckCollisionsPic(i);
+                         
+            }
+                
+                      
+            			
+
+            scene.context.font = "40px Verdana";
+            scene.context.fillStyle = "Red";
+            scene.context.fillText("     Energy : " + energy + "                                    " + "     Score : " + score,20,60);
+        }
+    </script>
+</head>
+<body id="bgg" onload = "init()" style="margin-top: 5em; text-align: center;">
+
+</body>
+</html>
